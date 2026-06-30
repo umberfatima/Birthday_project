@@ -25,8 +25,7 @@ body{
              0 0 35px rgba(0,255,102,.4);
              animation:fadeIn 1s;
              position: relative;
-             overflow:hidden;
-             
+             overflow:visible;       
       } 
     h1{ 
         text-align: center;
@@ -40,7 +39,7 @@ body{
    #terminalText{
     font-size:20px; 
     line-height:1.9;
-    min-height:280px;
+    min-height:180px;
     white-space:pre-line;
 
   }  
