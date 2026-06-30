@@ -1,0 +1,456 @@
+body{
+    margin:0;
+    padding:0;
+    background: #050505;
+    color: #00ff66;
+    font-family:consolas, monospace;
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height: 100vh;
+    overflow: hidden;
+    } 
+
+   .terminal{
+             width: 750px;
+             max-width: 90%;
+             background: #0b0b0b ;
+             border: 2px solid #00ff88;
+             border-radius:18px;
+             padding: 40px;
+             box-shadow:
+             0 0 15px #00ff66,
+             0 0 35px rgba(0,255,102,.4);
+             animation:fadeIn 1s;
+             position: relative;
+             overflow:hidden;
+             
+      } 
+    h1{ 
+        text-align: center;
+        color:#00ff66;
+        font-size:42px;
+        margin-bottom: 35px;
+        text-shadow:
+        0 0 10px #00ff66,
+        0 0 20px #00ff66;
+    }
+   #terminalText{
+    font-size:20px; 
+    line-height:1.9;
+    min-height:280px;
+    white-space:pre-line;
+
+  }  
+
+  button{ 
+background:transparent;
+
+color:#00ff66;
+
+border:2px solid #00ff66;
+
+padding:15px 45px;
+
+font-size:22px;
+
+font-family:Consolas, monospace;
+
+border-radius:8px;
+
+cursor:pointer;
+
+display:block;
+
+margin:40px auto 0;
+
+transition:.4s;
+
+box-shadow:0 0 10px #00ff66;
+
+}
+
+button:hover{
+
+background:#00ff66;
+
+color:black;
+
+transform:scale(1.08);
+
+box-shadow:
+
+0 0 20px #00ff66,
+
+0 0 40px #00ff66,
+
+0 0 60px #00ff66;
+
+}
+
+ @keyframes fadeIn{
+
+from{
+opacity:0;
+
+transform:translateY(20px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+} 
+#screen2{
+
+height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:black;
+
+color:#00ff66;
+
+font-size:26px;
+
+font-family:Consolas, monospace;
+
+text-align:center;
+
+white-space:pre-line;
+
+}
+#screen3{
+
+height:100vh;
+
+background:black;
+
+color:white;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+#screen3 h1{
+
+font-size:50px;
+
+margin-bottom:30px;
+
+}
+
+#continueBtn{
+
+padding:15px 35px;
+
+font-size:20px;
+
+cursor:pointer;
+
+}
+#story1{
+
+height:100vh;
+
+background:black;
+
+color:white;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+
+#story1 h1{
+
+font-size:42px;
+
+margin-bottom:30px;
+
+}
+
+#next1{
+
+padding:15px 35px;
+
+font-size:20px;
+
+cursor:pointer;
+
+}
+#story2{
+
+height:100vh;
+
+background:black;
+
+color:white;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+#story3{
+
+height:100vh;
+
+background:black;
+
+color:white;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+}
+#story4,
+#story5,
+#story6{
+
+height:100vh;
+background:black;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+#story7,
+#story8,
+#story9,
+#story10,
+#story11{
+
+height:100vh;
+background:black;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+ #birthdayPage{
+
+position:fixed;
+
+top:0;
+left:0;
+right:0;
+bottom:0;
+
+background:black;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+padding:40px;
+
+box-sizing:border-box;
+
+overflow-y:auto;
+
+}
+
+.birthdayHeading{
+
+font-size:55px;
+
+color:#ffd700;
+
+font-weight:normal;
+
+margin-bottom:35px;
+
+font-family:Georgia,serif;
+
+}
+
+.birthdayMessage{
+
+color:#e8e8e8;
+
+font-size:24px;
+
+line-height:1.8;
+
+max-width:900px;
+
+font-family:Verdana,sans-serif;
+
+}
+
+#finalMessageBtn{
+
+margin-top:40px;
+
+padding:16px 38px;
+
+font-size:20px;
+
+background:#4da6ff;
+
+color:white;
+
+border:none;
+
+border-radius:12px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+#finalMessageBtn:hover{
+
+transform:scale(1.06);
+
+}
+#finalPage{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+width:100%;
+
+height:100%;
+
+background:black;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:flex-start;
+
+align-items:center;
+
+padding:60px 40px;
+
+box-sizing:border-box;
+
+overflow-y:auto;
+}
+
+#finalText{
+
+max-width:900px;
+
+width:100%;
+
+color:#f8e7a0;
+
+font-size:28px;
+
+line-height:1.9;
+
+text-align:center;
+
+font-family:Georgia,serif;
+
+height:80vh;
+
+overflow-y:auto;
+
+padding:20px;
+
+box-sizing:border-box;
+
+position: relative;
+
+z-index:2;
+
+}
+/* ===== Golden Sparkles ===== */
+
+#finalPage{
+    position:relative;
+    overflow:hidden;
+}
+
+#finalPage::before{
+    content:"";
+    position:absolute;
+    inset:0;
+
+    background-image:
+    radial-gradient(circle,#ffd54f 1.5px,transparent 2px),
+    radial-gradient(circle,#fff2a8 1px,transparent 2px);
+
+    background-size:120px 120px,180px 180px;
+    background-position:0 0,60px 60px;
+
+    opacity:.8;
+
+    animation:twinkle 6s linear infinite;
+
+    pointer-events:none;
+}
+
+@keyframes twinkle{
+
+0%{
+transform:translateY(0px);
+opacity:.6;
+}
+
+50%{
+opacity:1;
+}
+
+100%{
+transform:translateY(-20px);
+opacity:.6;
+}
+
+}
