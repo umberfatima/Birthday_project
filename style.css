@@ -454,3 +454,23 @@ opacity:.6;
 }
 
 }
+@media (max-width:768px){
+
+.terminal{
+    padding:20px;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.terminal h1{
+    font-size:32px;
+}
+
+#beginBtn{
+    margin-top:25px;
+}
+
+}
